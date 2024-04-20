@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
 <section className=" body-font bg-[#180142] h-[800px] w-full">
-  <div className=" flex justify-center space-x-20 items-center pt-20">
+  <div className=" flex justify-center space-x-20 items-center pt-20 sm:space-x-10">
     
       <h1 className=" text-8xl font-bold text-[#7b2bbf] sm:text-3xl md:text-8xl xl:text-8xl">
         WEB <br />DEVELOPER

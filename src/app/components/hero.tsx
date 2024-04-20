@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     <div>
 <section className=" body-font bg-[#180142] h-[800px] w-full">
-  <div className=" flex py-24 justify-around md:flex-none ">
+  <div className=" flex justify-center space-x-20 items-center pt-20">
     
-      <h1 className=" text-8xl  font-bold  ">
+      <h1 className=" text-8xl font-bold text-[#7b2bbf] sm:text-2xl md:text-8xl xl:text-8xl">
         WEB <br />DEVELOPER
       </h1>
       
@@ -14,8 +14,8 @@ const Hero = () => {
      
      
     
-    <div className=" ">
-      <div className='container h-[250px] w-[250px] bg-[#7b2bbf] rounded-full'></div>
+    <div className="">
+      <div className=' h-[300px] w-[300px] bg-[#7b2bbf] rounded-full sm:h-[100px] sm:w-[100px] md:h-[300px] md:w-[300px]'></div>
     </div>
   </div>
 </section>

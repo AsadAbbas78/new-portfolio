@@ -21,8 +21,8 @@ const Hero = () => {
     </div>
   </div>
 
-<main className=' flex flex-wrap justify-center items-center relative md:bottom-48 xl:space-x-56 md:space-x-32 sm:bottom-16 sm:left-3 '>
-<div className='text-white text-xl '><h1>Hello Everyone</h1></div>
+<main className=' flex flex-wrap justify-center items-center relative md:bottom-48 xl:space-x-56 md:space-x-32 sm:bottom-16'>
+<div className='text-white text-xl sm:text-sm md:text-xl xl:text-xl'><h1>Hello Everyone</h1></div>
 <div><Image alt='' src={require('../../../public/Assests/pic/ec2a2f83-5f34-442b-9c41-55f4851355d4-removebg-preview.png')}  
 className=' md:h-[400px] md:w-[400px] sm:h-[200px] sm:w-[200px] xl:h-[500px] xl:w-[500px]'
 
